@@ -1,11 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
     background-color: #403b32;   
 }
+
+header {
+
+}
+
+nav {
+
+}
+
+main {
+
+}
+
+aside {
+     
+}
+
+footer {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Css velho */
 .container{
-    max-width: 100%;
+    max-width: 90%;
     margin: 0 auto;
     border: 1px solid black;
     display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
 }
 .logo, .lista{
     margin: 5px;
@@ -16,10 +61,30 @@ body{
     
 }
 .logo {
-    width: 20%;
+    
+    background-color: #403b32;
+    
 }
 .lista {
-    width: 75%;
+    margin-top: 10px;
+    height: 80px;
     display: flex;
+    justify-content: flex-end;
+    background-color: #403b32;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    min-width: 130px;
+}
+.itemLista{
+    color: rgb(255, 255, 255);
+    margin: 5px;
+ 
 }
 
+@media screen and (max-width: 500px) {
+    .lista {
+        display: block;
+    }
+    
+}
